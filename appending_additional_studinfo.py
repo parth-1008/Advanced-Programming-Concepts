@@ -1,0 +1,5 @@
+file=open("student.txt","a")
+file.write("Hobby: Watching shorts on Youtube\n")
+file.write("Favorite subject: Biology\n")
+file.close()
+print("added the additional info....")

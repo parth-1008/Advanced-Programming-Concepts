@@ -1,0 +1,5 @@
+file = open("student.txt", "r")
+content = file.read()
+characters = len(content)
+print("Total no of characters:", characters)
+file.close()
