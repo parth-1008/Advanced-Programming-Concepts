@@ -1,0 +1,5 @@
+f = open("demo.txt", "w+")
+f.write("Hello Python...")
+f.seek(0)
+print(f.read())
+f.close()

@@ -1,0 +1,5 @@
+f = open("demo.txt", "a+")
+f.write("\nNew Line")
+f.seek(0)
+print(f.read())
+f.close()
